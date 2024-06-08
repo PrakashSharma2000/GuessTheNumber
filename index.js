@@ -4,6 +4,9 @@ let GuessNum = document.getElementById("GuessNum");
 let Result = document.getElementById("result");
 let gameChance = 5;
 let GameChance = document.getElementById("gameChance");
+
+let Rules = document.getElementById("rules");
+Rules.style.display="none";
 GameChance.innerHTML="You have "+gameChance+" life left";
 function generateRandomNumber() {
     num = Math.floor(Math.random()*5)+1;
@@ -46,3 +49,10 @@ function hint(){
     }
 }
 
+function rulesGuide(){
+    if (Rules.style.display === "none") {
+        Rules.style.display = "block";
+      } else {
+        Rules.style.display = "none";
+      }
+}

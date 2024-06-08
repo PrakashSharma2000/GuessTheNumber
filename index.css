@@ -26,3 +26,14 @@ header{
 #gameover{
     display: none;
 }
+
+.rules{
+    font-size: 15px;
+    font-weight: 700;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    background-color: #d97460;
+}
+.rulebox{
+    padding: 10px;
+}
