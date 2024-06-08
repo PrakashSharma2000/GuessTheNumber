@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Random Number Game</title>
+</head>
+<body>
+    <div id="game">
+        <header>Guess The Number</header>
+    <div id="RandNum"></div>
+    <div id="gameChance"></div>
+    <div class="gameBox">
+        
+        <input name="GuessNum" 
+        id="GuessNum" placeholder="Enter value"
+        type="number"></input>
+
+        <button onclick="generateRandomNumber()">Click Me</button>
+    </div>
+    <div id="result"></div>
+    <button onclick="hint()">Hint</button>
+    </div>
+    <div id="gameover">
+        Game over.
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

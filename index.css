@@ -1,0 +1,28 @@
+body{
+    background-color: #3e3e42;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+header{
+    font-size: 40px;
+    color: #d97460;
+    text-align: center;
+}
+
+.gameBox{
+    display: grid;
+    height: 250px;
+   justify-content: center;
+    
+}
+
+.gameBox > input , button{
+    height: 50px;
+    font-size: 20px;
+}
+
+#gameover{
+    display: none;
+}
